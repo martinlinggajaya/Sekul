@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Intro Bold Alt';
+    src: url('../fonts/Intro-Bold-Alt.otf');
+}
+@font-face {
+    font-family: 'Intro Regular';
+    src: url('../fonts/IntroRegular.otf');
+}
+
+.root {
+    -fx-background-color: #ffffff;
+}
+.label {
+    -fx-font-family: 'Intro';
+    -fx-font-weight: 400;
+}
+.title {
+    -fx-font-family: 'Intro-BoldAlt';
+    -fx-text-fill: #B660FF;
+}
+
+.list-view {
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-control-inner-background-alt: -fx-control-inner-background;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: white;
+}
+
+.list-cell:filled:hover .rectangle {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
